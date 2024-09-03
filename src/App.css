@@ -1,0 +1,90 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  background-color: #e9f5f9;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 120px);
+  margin-right: 12px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li div {
+  margin-bottom: 8px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Add specific styling for anime details */
+.anime-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.anime-title {
+  font-weight: bold;
+}
+
+.anime-genre,
+.anime-release-year,
+.anime-rating {
+  font-size: 0.9em;
+  color: #555;
+}
